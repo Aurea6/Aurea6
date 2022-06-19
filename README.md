@@ -6,7 +6,7 @@
 ```javascript
 const iRed = {
     Age: 13,
-    Gender: "Female",
+    Gender: "Girl",
     Pronouns: "She/Her"
     Description: "I like to code what I love to make...",
     FavouriteLanguage: "Javascript",
@@ -14,6 +14,7 @@ const iRed = {
     OpenedPullRequests: 0,
     TotalCommits: 2,
     Repositories: {
+       Currently working on: Chronium-BOT 
        Created: 1,
        Contributed: 0
     },
