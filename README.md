@@ -1,5 +1,5 @@
 # 💫About Me :
-Heya! I am iRed and i am 13 year old girl who codes discord bot in discord.js. Currently I am working on Chronium Bot.
+Heya! I am iRed and i am 13 year old person who codes discord bot in discord.js. Currently I am working on Chronium Bot.
 
 ## 🌐Socials
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](htttps://discord.gg/MARqK9YNP2) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/c/UCLK66p8ynscMJqPES8EwQmg) 
