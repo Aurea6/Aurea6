@@ -14,8 +14,6 @@ Heya! I am iRed and i am 13 year old person who codes discord bot in discord.js.
 ## 🏆GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=iRed-Github&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
-### ✍️Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
-[![](https://visitcount.itsvg.in/api?id=iRed-Github&icon=5&color=4)](https://visitcount.itsvg.in)
+## 🔘Ongoing Projects
+- [Discord.js Verification Bot](https://github.com/iRed-Github/Verification-BOT)
+- [Chronium Bot](https://github.com/Chronium-BOT)
