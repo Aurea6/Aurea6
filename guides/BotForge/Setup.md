@@ -4,7 +4,7 @@ This is an easy to understand guide to start your forging experience with BotFor
 ## Contents
 1. [Requirements](#requirements)
 2. [Setups](#setups)
-   1. [Pterodactyl setup](#pterodactyl-setup)
+   1. [Pterodactyl/Pelican setup](#pterodactyl-setup)
    2. [VPS setup](#vps-setup)
    3. [Linux setup](#linux-setup)
    4. [Windows setup](#windows-setup)
