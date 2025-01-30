@@ -25,7 +25,7 @@ Let's get the show on road, you know I'm a bit chatty type, so I'll break down s
 ### Pterodactyl setup
 So for pterodactyl panel users, it's hate to break it to you, but it's kinda pain. But let's get started, I'll try to keep it simple. By the way it's painful, not difficult!
 > [!NOTE]
-> This guide assumes you've logged into your panel and your server installation is completed!
+> This guide assumes you've logged into your panel and your server installation is completed and your server egg is NodeJS v18 or higher.
 1. Go to your server's **Startup** tab and just simply copy-paste this in the **Additional Node Packages** section add the following and make sure it looks like the image:
    ```bash
    github:tryforge/forgescript#dev github:tryforge/forgedb sqlite3
@@ -160,6 +160,8 @@ So for pterodactyl panel users, it's hate to break it to you, but it's kinda pai
    - `legacy`: put the prefix commands in this folder
    - `application`: put the slash commands in this folder
    </details>
+> [!WARNING]
+> Make sure the prefix and slash command folders aren't same!
 7. Now you can make commands, for functions and guides refer to the [Documentation](https://docs.botforge.org). In case you want to learn how to create a command, it's just simply go to the folder of the type of command you want to make for example:
    <details><summary>Prefix command</summary>
 
@@ -192,6 +194,8 @@ So for pterodactyl panel users, it's hate to break it to you, but it's kinda pai
    }
    ```
    </details>
+
+8. Now that your done with making commands, head over to **Console** tab and simply click on the **Run** button, it might take a bit of time in the beginning to start the bot. Now that your done, you'll have to invite the bot to a server and test it.
 ### VPS setup
 ### Linux setup
 ### Windows setup
