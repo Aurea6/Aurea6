@@ -39,7 +39,7 @@ So for pterodactyl panel users, it's hate to break it to you, but it's kinda pai
     In case your wondering if you've done stuff right, then this is how it should look like:
       ![how it should look like](assets/Pterodactyl_panel_startup_setup.png)</details>
    
-2. Now that you've done the above step head over to [BotForge's Index Generation Tool](https://docs.botforge.org/#guide-index-generator) and simply generate a main file for your project.
+2. Now that you've done the above step head over to [BotForge's Client Generation Tool](https://tools.botforge.org/clientgen) and simply generate a main file for your project.
    <details><summary>Example main file</summary>
       
       ```js
