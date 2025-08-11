@@ -37,7 +37,7 @@ So for pterodactyl panel users, it's hate to break it to you, but it's kinda pai
    Then why `Sqlite3`? Well, apparently the `ForgeDB` package requires `Sqlite3` for setup, in case you want to explore other ways to setup, feel free to see the offical [GitHub of ForgeDB](https://github.com/tryforge/forgedb?tab=readme-ov-file#effortless-installation).
 
     In case your wondering if you've done stuff right, then this is how it should look like:
-      ![how it should look like](https://cdn.discordapp.com/attachments/1324085261138657383/1334477296035172443/Screenshot_20250130-162518.png?ex=679cac54&is=679b5ad4&hm=322239e859e40dd7cf67cfe043be6fa56c17b20301bbdc11ba0ff4be021923de&)</details>
+      ![how it should look like](assets/Pterodactyl_panel_startup_setup.png)</details>
    
 2. Now that you've done the above step head over to [BotForge's Index Generation Tool](https://docs.botforge.org/#guide-index-generator) and simply generate a main file for your project.
    <details><summary>Example main file</summary>
@@ -195,7 +195,7 @@ So for pterodactyl panel users, it's hate to break it to you, but it's kinda pai
    ```
    </details>
 
-8. Now that your done with making commands, head over to **Console** tab and simply click on the **Run** button, it might take a bit of time in the beginning to start the bot. Now that your done, you'll have to invite the bot to a server and test it.
+8. Now that your done with making commands, head over to **Console** tab and simply click on the **Run** button, it might take a bit of time in the beginning to start the bot. Now that your done, you'll have to invite the bot to a server and test it. I highly recommend using Berk's [Invite Permission Calculator](https://tools.botforge.org/permissions) tool.
 ### VPS setup
 ### Linux setup
 ### Windows setup
