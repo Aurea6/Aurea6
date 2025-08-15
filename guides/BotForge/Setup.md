@@ -210,16 +210,17 @@ So for pterodactyl panel users, it's hate to break it to you, but it's kinda pai
 > You may also see that there are some warnings, we will not cover how to address those here as they may cause issues with the bot, you're free to attempt to resolve those at your own risk.
 
 7. Create a file named `main.js`, you can do this using the terminal again if you wish: `touch main.js`
-8. Then create 3 folders named `commands`, `events`, and `extensions` using the following commands: `mkdir commands commands/events commands/extensions` Your output should look like this: 
-
-![Mac new command folders](image-1.png) 
-
+8. Then create 3 folders named `commands`, `application`, and `legacy` using the following commands: `mkdir commands commands/application commands/legacy`
 You can also verify this by running the command `ls commands` in the terminal, and you should get an output similar to this: 
 ```sh
-events          extensions
+application     legacy
 ```
 
-9. wip
+9. added files here, commands to make files
+`touch commands/legacy/ping.js`
+`touch commands/application/ping.js`
+
+![alt text](assets/mac%20images/filesAndFolders.png)
 ### Basic Android setup
 ### Advanced Android setup
 ## Important
