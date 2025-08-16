@@ -200,6 +200,27 @@ So for pterodactyl panel users, it's hate to break it to you, but it's kinda pai
 ### Linux setup
 ### Windows setup
 ### Mac setup
+1. Ensure you have homebrew installed, if you don't use the instructions here: https://brew.sh/
+2. Open terminal and run `brew install nodejs`, this will install any necessary dependencies for nodejs which includes sqlite that we'll be using later. You can ensure this has been installed correctly by running `which node` and `node -v`, you should see something like `/opt/homebrew/bin/node` and `v24.5.0` respectively, of course these will vary depending on how brew is configured and when you installed nodejs.
+3. Create a folder that will contain your new ForgeScript Bot, for the purposes of this guide, let's call it `mybot`. Assuming you're in the correct directory, run `mkdir mybot`, then navigate to it using `cd mybot`, you can verify this by running `pwd`, it will list the path of the directory you're in, with mybot at the end.
+4. Open your editor of choice and navigate to the folder you created. Assuming you're using VSCode, run `code .` or open it in vsc manually, you should see a window similar to this: ![vscode window](<Screenshot 2025-08-11 at 8.34.10 PM.png>)
+5. Open the terminal inside vsc using `ctrl` + `` ` ``
+6. Run `npm i github:tryforge/forgescript#dev github:tryforge/forgedb sqlite3` to install the necessary dependencies. If you're running this for the first time this may take a few moments. You should see a message similar to this: ![alt text](image.png)
+
+> You may also see that there are some warnings, we will not cover how to address those here as they may cause issues with the bot, you're free to attempt to resolve those at your own risk.
+
+7. Create a file named `main.js`, you can do this using the terminal again if you wish: `touch main.js`
+8. Then create 3 folders named `commands`, `application`, and `legacy` using the following commands: `mkdir commands commands/application commands/legacy`
+You can also verify this by running the command `ls commands` in the terminal, and you should get an output similar to this: 
+```sh
+application     legacy
+```
+
+9. added files here, commands to make files
+`touch commands/legacy/ping.js`
+`touch commands/application/ping.js`
+
+![alt text](assets/mac%20images/filesAndFolders.png)
 ### Basic Android setup
 ### Advanced Android setup
 ## Important
